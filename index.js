@@ -2,13 +2,13 @@
  * Module dependencies
  */
 
-var Emitter = require('emitter');
-var classes = require('classes');
-var events = require('events');
-var delegate = require('delegate');
-var prevent = require('prevent');
-var attr = require('attr');
-var stop = require('stop');
+var Emitter = require('component-emitter');
+var classes = require('component-classes');
+var events = require('component-events');
+var delegate = require('component-delegate');
+var prevent = require('yields-prevent');
+var attr = require('matthewp-attr');
+var stop = require('yields-stop');
 
 var currentDropdown, isBound;
 
